@@ -1,0 +1,17 @@
+#include<stdio.h>
+//First input file
+int main()
+{
+	int a;
+	a = 10;
+	if(a>5)
+	{
+		printf("a is greater than 5\n");
+	}
+	else
+	{
+		printf("a is less than 5\n");
+	}
+	/* this is not printed */
+	return 0;
+}
